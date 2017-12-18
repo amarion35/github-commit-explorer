@@ -1,0 +1,121 @@
+.header.item {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+.commitListElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.sha {
+  font-size: 10px;
+  color: gray;
+  text-align: right;
+}
+
+.commitContent {
+  padding: 5px;
+  display: flex;
+}
+
+.profilePicture {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.commitInfos {
+  margin: 0px 5px;
+}
+
+.commitTitle {
+  color: rgb(114, 105, 105);
+}
+
+.commitDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commitAuthor {
+  display: flex;
+}
+
+.commitAuthorLogin {
+  padding: 0px 5px;
+}
+
+.commitDetailsDate {
+  font-size: 12px;
+  text-align: right;
+}
+
+.commitDetailsGithubLink {
+  text-align: right;
+}
+
+.navBarHeader {
+  background: rgb(36, 36, 36);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 65px;
+  text-align: center;
+}
+
+#backButton {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: white;
+}
+
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background: rgb(36, 36, 36);
+  text-align: right;
+  color: white;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.pageContent {
+  height: 100%;
+}
+
+.repoSearch {
+  padding: 0px 10px;
+}
+
+.searchButton {
+  margin: 10px 0px !important;
+}
+
+#homeSearchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#homeLinuxRepo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#linuxSegment {
+  width: 40%;
+}
+
+#searchHeader {
+  text-align: center;
+}
