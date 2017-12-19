@@ -1,5 +1,5 @@
 # Github Commit Explorer
-====================
+
 ## Installing
 -------------
 
