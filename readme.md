@@ -1,7 +1,6 @@
 # Github Commit Explorer
 
 ## Installing
--------------
 
   * Install an Apache or Nginx server of your choice
   * Install composer
@@ -11,24 +10,20 @@
   * Run your server
 
 ## Features
------------
 
 The Github Commit Explorer application allows to navigate in the last commits of any github repository. You have the possibility to search a repository with the user name of the owner and the name of the repository. Then you can access to the list of the last commits. Finally you have access to more details for each commit. When it's possible the profile pictures are linked to the github user page.
 
 ## Choices
-----------
 
 I chose to make this application using the PHP framework Laravel. It was the occasion for me to work and learn a new framework. I didn't use front-end JS framework because I decided to focus on PHP. In my opinion a total front-end application could have done this project more efficiently. The main problem here is that the github request pass by the server before going to the client so the request to the server take more time.
 
 ## To Do
---------
 
  * Improve Input management to handle input erros.
  * Implement a sort by author/date.
  * Implement a commit search in a repository.
 
 ## Routes
----------
 
   * /home
 
